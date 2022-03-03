@@ -237,21 +237,46 @@ body {
     overflow: hidden;
 }
 .useragreement-check{
-    margin-left: 800px;
+    margin: 20px 0 50px;
     font-size: 1.25rem;
-    
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 .btns{
     text-align: center;
     margin: 40px;
 }
 .btns input{
-    border: 1px solid white;
+    border: 0px solid white;
     padding: 20px;
-    width: 100px;
+    width: 200px;
     margin: 10px;
     font-weight: bold;
     font-size: 1.25rem;
+}
+.btns input[type=submit]{
+    background: antiquewhite;
+}
+.btns input[type=reset]{
+    border: 1px solid black;
+}
+.btns input[type=reset]:hover{
+    background: black;
+    color: white;
+}
+.btns input[type=submit]:hover{
+    background: rosybrown;
+    color: white;
+}
+input[checkbox]{
+    color: #666;
 }
 /* ============== .aside-wrap ================ */
 .outer-wrap {
@@ -289,6 +314,9 @@ body {
 }
 .etc li {
     display: inline-block;
+}
+address{
+    font-style: normal;
 }
 address p {
     display: inline-block;
