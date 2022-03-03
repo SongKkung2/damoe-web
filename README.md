@@ -7,5 +7,6 @@
 
 ## 진행단계
 * 요구분석
-* 설계
+* 설계[figma]https://www.figma.com/files/recent?fuid=1073071572154639836
+"와이어 프레임""ui ux 설계화면"
 * 구현
